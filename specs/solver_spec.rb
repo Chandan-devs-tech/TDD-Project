@@ -19,4 +19,10 @@ describe Solver do
       expect(Solver.new.factorial(5)).to eq 120
     end
   end
+
+  context 'test for the reverse method' do
+    it 'should return the reverse word' do
+      expect(Solver.new.reverse('rob')).to eq('bor')
+    end
+  end
 end

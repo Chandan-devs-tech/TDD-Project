@@ -28,19 +28,19 @@ describe Solver do
 
   context 'test for fizzbuzz method' do
     it 'should return fizz if the input is divisible by 3' do
-        expect(Solver.new.fizzbuzz(27)).to eq('fizz')
+      expect(Solver.new.fizzbuzz(27)).to eq('fizz')
     end
 
     it 'should return buzz if the input is divisible by 5' do
-        expect(Solver.new.fizzbuzz(25)).to eq('buzz')
+      expect(Solver.new.fizzbuzz(25)).to eq('buzz')
     end
 
     it 'should return fizzbuzz if the input is divisible by 3 and 5' do
-        expect(Solver.new.fizzbuzz(15)).to eq('fizzbuzz')
+      expect(Solver.new.fizzbuzz(15)).to eq('fizzbuzz')
     end
 
     it 'should return the number itself if the input is not divisible by 3 and 5' do
-        expect(Solver.new.fizzbuzz(11)).to eq 11
+      expect(Solver.new.fizzbuzz(11)).to eq 11
     end
   end
 end

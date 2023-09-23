@@ -162,7 +162,7 @@ sh
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Chandan-devs-tech/TDD-Project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

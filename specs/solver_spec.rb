@@ -14,7 +14,6 @@ describe Solver do
       expect(Solver.new.factorial(0)).to eq 1
     end
 
-
     it 'should return factorial of input number' do
       expect(Solver.new.factorial(5)).to eq 120
     end
